@@ -1,10 +1,10 @@
-# api.rb
-
 require './boot'
 
 class Api < Goliath::API
 
   def response(env)
+
+    # pg_result: http://deveiate.org/code/pg/PG/Result.html
     pg_result = connection_pool do |connection|
       sync(connection.execute('select pg_sleep(1)'))
     end

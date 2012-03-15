@@ -1,5 +1,3 @@
-# config/postgres-connection-pool.rb
-
 pg_environment = String(Goliath.env)
 pg_config_file = File.expand_path('../config/postgres.yml', __FILE__)
 pg_config_yaml = YAML.load_file(pg_config_file)

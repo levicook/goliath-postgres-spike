@@ -1,5 +1,3 @@
-# boot.rb
-
 require 'bundler/setup'
 Bundler.require
 
