@@ -1,0 +1,9 @@
+# config/postgres.yml
+
+# Most connection options are documented here:
+# https://github.com/jtoy/em-postgres/blob/master/lib/em-postgres/postgres.rb#L88
+# pool: is handled separately, used to setup a EM::Synchrony::ConnectionPool
+
+development:
+  database: postgres
+  pool: 5

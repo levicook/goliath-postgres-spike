@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+cd `dirname $0`
+export BUNDLE_GEMFILE=./Gemfile
+bundle exec ruby ./api.rb --stdout $*
