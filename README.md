@@ -1,5 +1,4 @@
 
-
 This project is a proof of concept designed to confirm the viability of accessing [PostreSQL][1] from [Goliath][2], in a non-blocking fashion.
 
 
